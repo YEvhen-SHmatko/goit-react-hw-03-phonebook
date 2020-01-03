@@ -1,0 +1,39 @@
+.form__contact {
+  width: 320px;
+  color: rgb(3, 3, 112);
+}
+.form__name-title {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 10px;
+  font-size: 24px;
+}
+.form__name-input {
+  width: 70%;
+  color: rgb(3, 3, 112);
+  border: 1px solid transparent;
+  border-bottom: 2px solid rgb(3, 3, 112);
+  font-size: 24px;
+}
+.form__name-input::placeholder {
+  color: rgb(204, 204, 223);
+}
+.button {
+  display: block;
+  width: 60%;
+  height: 40px;
+  margin: 10px auto;
+  color: rgb(3, 3, 112);
+  background: rgb(201, 200, 255);
+  border: 2px solid rgb(3, 3, 112);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.disabled {
+  composes: button;
+  color: rgb(201, 200, 255);
+  background: rgb(255, 255, 255);
+  border: 2px solid rgb(201, 200, 255);
+  cursor: auto;
+}
